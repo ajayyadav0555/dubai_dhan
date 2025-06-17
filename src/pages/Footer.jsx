@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-sm">
                 {/* Column 1: Logo & Description */}
                 <div>
-                    <img src="/logo.png" alt="Dubai Finanz" className="h-16 mb-4 w-20" />
+                    <img src="/newlogo.jpeg" alt="Dubai Finanz" className="h-10 rounded mb-4 w-30" />
                     <p className="font-semibold mb-2">
                         Successfully invest in Dubai real estate – without off-plan
                     </p>
@@ -53,21 +53,19 @@ const Footer = () => {
                 <div>
                     <h4 className="font-bold mb-4">Contact</h4>
                     <p className="text-sm font-bold mb-2">
-                        Dubai Finance is an offer of: Welldomo Mortgage Broker LLC<br />
+                        Dubai Dhan is an offer of: Welldomo Mortgage Broker LLC<br />
                         Welldomo Valuation Real Estate LLC
                     </p>
                     <p className="mb-4 text-gray-300">
-                        Level 702, Building 6, Emaar Square<br />
-                        Burj Khalifa Community, PO Box 122347<br />
-                        Dubai, UAE
+                       Aspin Commercial Tower, Sheikh Zayed Road, Dubai, UAE
                     </p>
-                    <div className="flex items-center mb-3">
+                    {/* <div className="flex items-center mb-3">
                         <img src="https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60" alt="Eugen Zimbelmann" className="w-10 h-10 rounded-full mr-3" />
                         <div>
                             <p className="font-medium">Eugen Zimbelmann</p>
                             <p className="text-gray-400 text-xs">Founder & Senior Investment Advisor</p>
                         </div>
-                    </div>
+                    </div> */}
                     <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium py-2 px-4 rounded mt-2 text-sm w-full">
                         Book your free initial consultation now<br />
                         <span className="text-xs font-normal">Free of charge and by phone – choose an appointment</span>

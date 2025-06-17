@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Strategy = ({ step }) => {
     return (
         <motion.div
-            className="relative flex flex-col md:flex-row max-w-7xl mx-auto px-6 py-10 items-start md:items-stretch"
+            className="relative flex flex-col md:flex-row max-w-7xl mx-auto px-6 py-10 items-start md:items-stretch overflow-hidden"
             initial={{ y: 100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}

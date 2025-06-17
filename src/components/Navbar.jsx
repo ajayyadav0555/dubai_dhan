@@ -10,16 +10,16 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="https://onecdn.io/media/43ba1108-2927-401a-b5e1-8dd22da972ac/md2x"
-            alt="Dubai Finanz Logo"
-            className="h-12 w-20"
+            src="newlogo.jpeg"
+            alt="Dubai Dhan Logo"
+            className="h-10 w-30 rounded"
           />
 
         </div>
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6 items-center ">
-          <a href="#" className="text-yellow-400 font-semibold">Home</a>
+          <a href="#home" className="text-yellow-400 font-semibold">Home</a>
           <a href="#" className="hover:text-yellow-400">Press</a>
           <a href="#" className="hover:text-yellow-400">Careers</a>
           <a href="#" className="hover:text-yellow-400">Bank Account</a>
