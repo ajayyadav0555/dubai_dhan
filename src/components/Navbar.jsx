@@ -5,7 +5,7 @@ import { HiOutlineMenuAlt4 } from "react-icons/hi";
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <div className='bg-[#152e52] text-white font-bold border-b border-b-white relative'>
+    <div className='bg-[#152e52] text-white font-bold border-b border-b-white  fixed top-0 left-0 w-full z-1000'>
       <nav className="max-w-7xl mx-auto bg-[#152e52] text-white px-6 py-4 flex flex-wrap items-center justify-between gap-8">
         {/* Logo */}
         <div className="flex items-center space-x-2">

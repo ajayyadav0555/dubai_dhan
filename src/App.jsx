@@ -10,6 +10,12 @@ import Strategy2 from './pages/Strategy2.jsx'
 import CaseStudy from './pages/CaseStudy.jsx'
 import Details from './pages/Details.jsx'
 import Footer from './pages/Footer.jsx'
+import ScrollAnimation from './pages/ScrollAnimation.jsx'
+import FounderSection from './pages/FounderSection.jsx'
+import AvailablitySection from './pages/AvailablitySection.jsx'
+import ApproachSection from './pages/ApproachSection.jsx'
+import FeatureSection from './pages/Fearures.jsx'
+
 
 const stepsData = [
   {
@@ -55,15 +61,20 @@ const App = () => {
   return (
     <div className=''><Navbar />
       <HeroSection />
-      <Expertice />
+      {/* <Expertice /> */}
       <NotFault />
       <Comparison />
       <ScrollDSection />
-      <Strategy step={stepsData[0]} />
+      {/* <Strategy step={stepsData[0]} />
       <Strategy2 step={stepsData[1]} />
       <Strategy step={stepsData[2]} />
       <Strategy2 step={stepsData[3]} />
-      <Strategy step={stepsData[4]} />
+      <Strategy step={stepsData[4]} /> */}
+      <ScrollAnimation/>
+      <FounderSection/>
+      <AvailablitySection/>
+      <ApproachSection/>
+      <FeatureSection/>
       <CaseStudy />
       <Details/>
       <Footer/>
