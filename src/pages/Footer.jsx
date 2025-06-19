@@ -57,8 +57,9 @@ const Footer = () => {
                         Welldomo Valuation Real Estate LLC
                     </p>
                     <p className="mb-4 text-gray-300">
-                       Aspin Commercial Tower, Sheikh Zayed Road, Dubai, UAE
+                      Aspin Commercial Tower, Sheikh Zayed Road, Dubai, UAE 
                     </p>
+                    <p>Email:info@dubaidhan.com</p>
                     {/* <div className="flex items-center mb-3">
                         <img src="https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60" alt="Eugen Zimbelmann" className="w-10 h-10 rounded-full mr-3" />
                         <div>

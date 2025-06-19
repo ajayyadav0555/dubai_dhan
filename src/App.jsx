@@ -61,7 +61,7 @@ const App = () => {
   return (
     <div className=''><Navbar />
       <HeroSection />
-      {/* <Expertice /> */}
+      <Expertice />
       <NotFault />
       <Comparison />
       <ScrollDSection />
