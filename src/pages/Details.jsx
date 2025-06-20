@@ -31,7 +31,7 @@ const Details = () => {
               <MapPin className="w-5 h-5 mt-1" />
               <p className='[font-family:"Quicksand",sans-serif]'>
                 <strong>Address:</strong><br />
-                Level 702, Emaar Square, Building 6, Burj Khalifa Community, P.O. Box 122347, Dubai, UAE
+               Aspin Commercial Tower, Sheikh Zayed Road, Dubai, UAE 
               </p>
             </div>
 

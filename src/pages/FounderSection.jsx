@@ -12,7 +12,7 @@ const FounderSection = () => {
                 <div className=' my-20'>
                     <div className=' w-full md:max-w-1/2 text-white bg-[#191918] opacity-80 px-4 pt-5 pb-10 rounded'>
                         <h1 className='m-4 px-2 py-1 bg-[#E2ECFE] border w-fit rounded-md text-sm font-bold text-[#1A3154]'>Founder and Senior Advisor</h1>
-                        <h1 className='text-3xl ml-4 font-mono pb-5'>Eugen Zimbelmann</h1>
+                        {/* <h1 className='text-3xl ml-4 font-mono pb-5'>Eugen Zimbelmann</h1> */}
                         <p className="ml-4 font-bold text-base [font-family:'Quicksand',sans-serif]">
                             I have been a professional real estate investor for over 10 years. The Dubai Land Department has accredited and sworn me in as a real estate consultant, appraiser, and expert. I am the founder of Dubai Finance and Financing Specialist. I help German-speaking investors like you invest sustainably and securely in existing properties in Dubai.
                         </p>
