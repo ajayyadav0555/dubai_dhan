@@ -47,11 +47,11 @@ const RealEstateFeatures = () => {
             <div className="flex gap-4 items-start">
               {item.icon}
               <div className="flex flex-col gap-2">
-                <h3 className="text-[#1A3154] font-semibold text-xl">{item.title}</h3>
-                <p className="opacity-70 text-base text-gray-600 whitespace-pre-line leading-relaxed font-semibold">
+                <h3 className="text-[#1A3154] font-semibold text-xl font-serif">{item.title}</h3>
+                <p className=" text-base text-gray-600 whitespace-pre-line leading-relaxed font-semibold [font-family:'Quicksand',sans-serif]">
                   {item.content}
                 </p>
-                <p className="text-base font-bold text-gray-600">{item.highlight}</p>
+                <p className="text-base font-bold text-gray-600 ">{item.highlight}</p>
               </div>
             </div>
           </div>

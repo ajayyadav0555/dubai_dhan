@@ -97,11 +97,11 @@ const AccordionItem = ({ icon, label, description, isOpen, onToggle }) => {
         onClick={onToggle}
         className="w-full flex items-center justify-between text-left"
       >
-        <span className="flex items-center gap-3 text-normal font-medium text-[#152e52]">
+        <span className="flex items-center gap-3 text-normal font-bold text-[#152e52] [font-family:'Quicksand',sans-serif]">
           {icon}
           <span>{label}</span>
         </span>
-        <span className="text-gray-400 text-lg">
+        <span className="text-gray-400 text-lg [font-family:'Quicksand',sans-serif] font-bold">
           {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
         </span>
       </button>
@@ -127,11 +127,11 @@ const Comparison = () => {
   return (
     <section className="bg-[#1e3254] text-white py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
-        <p className="uppercase text-xs tracking-widest mb-2">A Comparison</p>
-        <h2 className="text-3xl font-semibold mb-4">
+        <p className="uppercase text-xs tracking-widest mb-2 [font-family:'Quicksand',sans-serif]">A Comparison</p>
+        <h2 className="text-3xl font-semibold mb-4 font-serif">
           That's why we are the right partner for you
         </h2>
-        <p className="max-w-2xl mx-auto mb-10 text-gray-300 text-sm md:text-base">
+        <p className="max-w-2xl mx-auto mb-10 text-gray-300 text-sm md:text-base [font-family:'Quicksand',sans-serif]">
           Our many years of experience and in-depth market knowledge in Dubai make us your ideal partner for real estate investments. We not only offer you sound advice, but also accompany you through every step of the process with a clear focus on your success.
         </p>
 

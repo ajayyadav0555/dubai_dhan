@@ -16,12 +16,12 @@ const HeroSection = () => {
             <p className="text-yellow-300 font-semibold text-sm uppercase">
               Invest successfully in Dubai with equity starting from 100,000 EUR
             </p>
-            <h1 className="text-2xl md:text-3xl max-w-[500px] mt-6 mb-6 font-bold font-sans">
+            <h1 className="text-2xl md:text-3xl max-w-[500px] mt-6 mb-6 font-bold font-serif">
               Successfully invest in Dubai real estate
             </h1>
 
 
-            <ul className="space-y-4 text-sm md:text-base">
+            <ul className="space-y-4 text-sm md:text-base [font-family:'Quicksand',sans-serif]">
               {[
                 'Get clarity on Dubai real estate and why "off-plan investments", buying developer projects, is the wrong way to go.',
                 'Take advantage of our investment concept and invest in existing properties with immediate rental returns in Dubai.',

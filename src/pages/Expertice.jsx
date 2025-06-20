@@ -4,8 +4,10 @@ const Expertice = () => {
     return (
         <div className='bg-white'>
             <div className='max-w-7xl mx-auto mb-16'>
-                <h1 className='text-center md:text-4xl text-3xl md:mt-20 mt-10 text-[#152e52]  font-semibold'>Real expertise and independent advice</h1>
-                <p className='md:mx-20 mx-10 mt-5 flex flex-wrap text-gray-600 font-bold opacity-80 text-center'>As a sworn appraiser and real estate expert, accredited by the Dubai Land Department, Eugen Zimbelmann is the expert for real estate in Dubai. He is also an investor and financing specialist. As a strategic partner and independent advisor, he represents your interests exclusively, handling purchase agreement negotiations and contract review – without commissions or conflicts of interest. Thanks to our expertise and established networks, we always have the best deals and analyze the Dubai real estate market in greater depth than anyone else on the market. Whether long-term or short-term rentals, we know the figures even before the purchase.</p>
+                <h1 className='text-center md:text-4xl text-3xl md:mt-20 mt-10 text-[#152e52]  font-semibold font-serif'>Real expertise and independent advice</h1>
+                <p className="md:mx-20 mx-10 mt-5 flex flex-wrap text-gray-600 font-bold opacity-80 text-center [font-family:'Quicksand',sans-serif]">
+                    As a sworn appraiser and real estate expert, accredited by the Dubai Land Department, Eugen Zimbelmann is the expert for real estate in Dubai. He is also an investor and financing specialist. As a strategic partner and independent advisor, he represents your interests exclusively, handling purchase agreement negotiations and contract review – without commissions or conflicts of interest. Thanks to our expertise and established networks, we always have the best deals and analyze the Dubai real estate market in greater depth than anyone else on the market. Whether long-term or short-term rentals, we know the figures even before the purchase.
+                </p>
 
                 {/* <div className='bg-gray-100 max-w-full  mt-14 rounded-md pb-10'>
                     <p className='text-3xl max-w-[300px] text-[#152e52] pt-10 pl-10 '>Accredited appraiser

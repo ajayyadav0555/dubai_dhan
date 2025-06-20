@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* Column 1: Logo & Description */}
                 <div>
                     <img src="/newlogo.jpeg" alt="Dubai Finanz" className="h-10 rounded mb-4 w-30" />
-                    <p className="font-semibold mb-2">
+                    <p className="font-semibold mb-2 font-serif">
                         Successfully invest in Dubai real estate – without off-plan
                     </p>
                     <h4 className="font-bold mt-4">ISO 9001:2015 certified</h4>
@@ -16,7 +16,7 @@ const Footer = () => {
                         <img src="/iso.png" alt="ISO Cert" className="h-10" />
                         {/* <img src="/uaf.png" alt="UAF" className="h-10" /> */}
                     </div>
-                    <p className="text-gray-400">
+                    <p className="text-gray-400 [font-family:'Quicksand',sans-serif]">
                         Dubai Finance is an offering of Welldomo Mortgage Broker LLC and Welldomo Valuation
                         Real Estate LLC – both ISO 9001:2015 certified, audited and verified by the United Accreditation Foundation (UAF).
                         This certification stands for the highest quality standards, transparent processes and continuous improvement of our
@@ -52,7 +52,7 @@ const Footer = () => {
                 {/* Column 4: Contact */}
                 <div>
                     <h4 className="font-bold mb-4">Contact</h4>
-                    <p className="text-sm font-bold mb-2">
+                    <p className="text-sm font-bold mb-2 [font-family:'Quicksand',sans-serif]">
                         Dubai Dhan is an offer of: Welldomo Mortgage Broker LLC<br />
                         Welldomo Valuation Real Estate LLC
                     </p>
@@ -69,7 +69,7 @@ const Footer = () => {
                     </div> */}
                     <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium py-2 px-4 rounded mt-2 text-sm w-full">
                         Book your free initial consultation now<br />
-                        <span className="text-xs font-normal">Free of charge and by phone – choose an appointment</span>
+                        <span className="text-xs font-normal [font-family:'Quicksand',sans-serif]">Free of charge and by phone – choose an appointment</span>
                     </button>
                 </div>
             </div>

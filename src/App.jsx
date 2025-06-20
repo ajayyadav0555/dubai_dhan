@@ -17,44 +17,44 @@ import ApproachSection from './pages/ApproachSection.jsx'
 import FeatureSection from './pages/Fearures.jsx'
 
 
-const stepsData = [
-  {
-    stepNumber: 1,
-    title: 'Investment Strategy Consultation',
-    description:
-      'We start by understanding your financial goals, budget, and risk tolerance. In a personalized session, we map out a strategy that could include real estate, business investment, or diversified financial products.',
-    image: 'image1.jpg',
-  },
-  {
-    stepNumber: 2,
-    title: 'Financial Planning & Capital Structuring',
-    description:
-      'Based on your profile, we create a tailored financial plan—balancing cash flow, return expectations, and tax efficiency. We structure capital intelligently, using both equity and financing options to grow your wealth.',
-    image: 'image2.jpg',
-  },
-  {
-    stepNumber: 3,
-    title: 'Opportunity Sourcing & Market Research',
-    description:
-      'We analyze multiple sectors—real estate, business, and financial markets—using live data and trend analytics to identify high-return, low-risk investment opportunities tailored to your interests.',
+// const stepsData = [
+//   {
+//     stepNumber: 1,
+//     title: 'Investment Strategy Consultation',
+//     description:
+//       'We start by understanding your financial goals, budget, and risk tolerance. In a personalized session, we map out a strategy that could include real estate, business investment, or diversified financial products.',
+//     image: 'image1.jpg',
+//   },
+//   {
+//     stepNumber: 2,
+//     title: 'Financial Planning & Capital Structuring',
+//     description:
+//       'Based on your profile, we create a tailored financial plan—balancing cash flow, return expectations, and tax efficiency. We structure capital intelligently, using both equity and financing options to grow your wealth.',
+//     image: 'image2.jpg',
+//   },
+//   {
+//     stepNumber: 3,
+//     title: 'Opportunity Sourcing & Market Research',
+//     description:
+//       'We analyze multiple sectors—real estate, business, and financial markets—using live data and trend analytics to identify high-return, low-risk investment opportunities tailored to your interests.',
 
-    image: 'image3.jpg',
-  },
-  {
-    stepNumber: 4,
-    title: 'Negotiation & Execution',
-    description:
-      'Our team negotiates with sellers, developers, or business owners on your behalf. We ensure every agreement is in your favor and aligned with your strategic goals—right through to the final signature.',
-    image: 'image4.jpg',
-  },
-  {
-    stepNumber: 5,
-    title: 'Asset Management & Growth Monitoring',
-    description:
-      'Post-investment, we actively manage your portfolio—whether real estate, business, or mixed assets. We track performance, reinvest profits, and advise on rebalancing to ensure continued growth.',
-    image: 'image5.jpg',
-  },
-];
+//     image: 'image3.jpg',
+//   },
+//   {
+//     stepNumber: 4,
+//     title: 'Negotiation & Execution',
+//     description:
+//       'Our team negotiates with sellers, developers, or business owners on your behalf. We ensure every agreement is in your favor and aligned with your strategic goals—right through to the final signature.',
+//     image: 'image4.jpg',
+//   },
+//   {
+//     stepNumber: 5,
+//     title: 'Asset Management & Growth Monitoring',
+//     description:
+//       'Post-investment, we actively manage your portfolio—whether real estate, business, or mixed assets. We track performance, reinvest profits, and advise on rebalancing to ensure continued growth.',
+//     image: 'image5.jpg',
+//   },
+// ];
 
 
 const App = () => {

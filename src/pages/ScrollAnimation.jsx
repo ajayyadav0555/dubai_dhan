@@ -52,7 +52,7 @@ const StepCard = ({ step, isLeft }) => {
         <div className={`relative z-10 flex flex-col md:flex-row items-center ${isLeft ? "md:flex-row-reverse" : ""} mb-32`}>
             {/* Step Number Dot (exact position aligns with line) */}
             <div className="absolute top-0 left-2 md:left-1/2 transform -translate-x-1/2 z-20">
-                <div className="w-10 h-10 rounded-md bg-[#1A3154] text-white flex items-center justify-center font-bold shadow-md ">
+                <div className="w-10 h-10 rounded-md bg-[#1A3154] text-white flex items-center justify-center font-bold shadow-md [font-family:'Quicksand',sans-serif]">
                     {step.number}
                 </div>
             </div>
@@ -62,8 +62,8 @@ const StepCard = ({ step, isLeft }) => {
                 <div className="ml-10">
                     <img src={step.image} alt={`Step ${step.number}`} className="w-72 md:w-96 object-contain rounded-2xl" />
                     <div className="mt-7">
-                        <h3 className="md:text-3xl text-xl font-semibold mb-2 text-[#2F4A64]">{step.title}</h3>
-                        <p className="text-gray-500 text-normal opacity-60 leading-relaxed mt-4">{step.description}</p>
+                        <h3 className="md:text-3xl text-xl font-semibold mb-2 text-[#2F4A64] [font-family:'Quicksand',sans-serif]">{step.title}</h3>
+                        <p className="text-gray-500 text-normal opacity-60 leading-relaxed mt-4 [font-family:'Quicksand',sans-serif]">{step.description}</p>
                     </div>
                 </div>
             </div>

@@ -9,11 +9,11 @@ const CaseStudy = () => {
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <span className="bg-[#01142e] text-white text-xs font-semibold px-4 py-2 rounded tracking-wide">
+                    <span className="bg-[#01142e] text-white text-xs font-semibold px-4 py-2 rounded tracking-wide font-serif">
                         REVIEWS
                     </span>
-                    <h2 className="text-3xl font-bold mt-8 text-[#01142e]">Case studies from our investors</h2>
-                    <p className="text-gray-600 text-xl md:text-2xl mt-4 max-w-3xl mx-auto">
+                    <h2 className="text-3xl font-bold mt-8 text-[#01142e] font-serif">Case studies from our investors</h2>
+                    <p className="text-gray-600 text-xl md:text-2xl mt-4 max-w-3xl mx-auto font-serif">
                         Find out what results our investors achieved after choosing to work with us.
                     </p>
                 </div>
@@ -54,7 +54,7 @@ const CaseStudy = () => {
                             <div className="text-xl mt-1 shrink-0"><ImCross /></div>
                             <div>
                                 <p className="text-xl font-bold mb-1">Problem</p>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed [font-family:'Quicksand',sans-serif]">
                                     As an experienced real estate investor in Germany, Martin Krygier wanted to purchase his first property in Dubai. He was unclear about the local market details and financing options, so he was looking for a partner who could provide him with a complete solution.
                                 </p>
                             </div>
@@ -64,7 +64,7 @@ const CaseStudy = () => {
                             <div className="text-xl mt-1 shrink-0"><GoGoal /></div>
                             <div>
                                 <p className="text-xl font-bold mb-1">Goal</p>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed [font-family:'Quicksand',sans-serif]">
                                     With the help of local financing from banks in Dubai and the right choice of property, you can master your first property purchase in Dubai. You'll also have a long-term partner who will take care of cashing rent checks and managing the property.
                                 </p>
                             </div>
@@ -74,7 +74,7 @@ const CaseStudy = () => {
                             <div className="text-xl mt-1 shrink-0"><TbBulb /></div>
                             <div>
                                 <p className="text-xl font-bold mb-1">Solution</p>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed [font-family:'Quicksand',sans-serif]">
                                     We financed 60% of the purchase price of his property with a local bank in Dubai within three weeks. We handled all correspondence with the financing bank, from the loan application to the notary and check issuance. We advised on the property search and are providing long-term property management.
                                 </p>
                             </div>
@@ -97,7 +97,7 @@ const CaseStudy = () => {
                             <div className="text-xl mt-1 shrink-0"><ImCross /></div>
                             <div>
                                 <p className="text-xl font-bold mb-1">Problem</p>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed [font-family:'Quicksand',sans-serif]">
                                     As an experienced real estate investor in Germany, Martin Krygier wanted to purchase his first property in Dubai. He was unclear about the local market details and financing options, so he was looking for a partner who could provide him with a complete solution.
                                 </p>
                             </div>
@@ -107,7 +107,7 @@ const CaseStudy = () => {
                             <div className="text-xl mt-1 shrink-0"><GoGoal /></div>
                             <div>
                                 <p className="text-xl font-bold mb-1">Goal</p>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed [font-family:'Quicksand',sans-serif]">
                                     With the help of local financing from banks in Dubai and the right choice of property, you can master your first property purchase in Dubai. You'll also have a long-term partner who will take care of cashing rent checks and managing the property.
                                 </p>
                             </div>
@@ -117,7 +117,7 @@ const CaseStudy = () => {
                             <div className="text-xl mt-1 shrink-0"><TbBulb /></div>
                             <div>
                                 <p className="text-xl font-bold mb-1">Solution</p>
-                                <p className="text-sm leading-relaxed">
+                                <p className="text-sm leading-relaxed [font-family:'Quicksand',sans-serif]">
                                     We financed 60% of the purchase price of his property with a local bank in Dubai within three weeks. We handled all correspondence with the financing bank, from the loan application to the notary and check issuance. We advised on the property search and are providing long-term property management.
                                 </p>
                             </div>
