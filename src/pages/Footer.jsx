@@ -57,7 +57,7 @@ const Footer = () => {
                         Welldomo Valuation Real Estate LLC
                     </p>
                     <p className="mb-4 text-gray-300">
-                      Aspin Commercial Tower, Sheikh Zayed Road, Dubai, UAE 
+                        Aspin Commercial Tower, Sheikh Zayed Road, Dubai, UAE
                     </p>
                     <p>Email:info@dubaidhan.com</p>
                     {/* <div className="flex items-center mb-3">
@@ -67,9 +67,13 @@ const Footer = () => {
                             <p className="text-gray-400 text-xs">Founder & Senior Investment Advisor</p>
                         </div>
                     </div> */}
-                    <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium py-2 px-4 rounded mt-2 text-sm w-full">
+                    {/* <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium py-2 px-4 rounded mt-2 text-sm w-full">
                         Book your free initial consultation now<br />
                         <span className="text-xs font-normal [font-family:'Quicksand',sans-serif]">Free of charge and by phone – choose an appointment</span>
+                    </button> */}
+                    <button className="bg-[#B9F0F9] text-[#152e52] py-2 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300 mt-2">
+                        <span className="font-bold">Book your free initial consultation now</span><br />
+                        <span className="text-xs">Free of charge and by phone – choose an appointment</span>
                     </button>
                 </div>
             </div>

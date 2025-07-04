@@ -125,7 +125,8 @@ const Comparison = () => {
   };
 
   return (
-    <section className="bg-[#1e3254] text-white py-16 px-4">
+    <section className="bg-gradient-to-r from-[#29317C] to-[#058FEA] text-white py-16 px-4 relative">
+      {/* <div className='inset-0 bg-black opacity-20 absolute' /> */}
       <div className="max-w-7xl mx-auto text-center">
         <p className="uppercase text-xs tracking-widest mb-2 [font-family:'Quicksand',sans-serif]">A Comparison</p>
         <h2 className="text-3xl font-semibold mb-4 font-serif">

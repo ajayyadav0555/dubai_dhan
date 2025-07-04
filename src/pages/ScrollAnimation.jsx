@@ -15,15 +15,15 @@ const Timeline = () => {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start center", "end center"], 
+    offset: ["start center", "end center"],
   });
 
   const scaleY = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <div ref={containerRef} className="relative w-full max-w-7xl mx-auto px-4">
+    <div ref={containerRef} className="relative w-full max-w-7xl mx-auto px-4 mb-10">
       {/* Wrapping line with controlled height div */}
-      <div className="absolute left-2 md:left-1/2 top-0 bottom-56 w-[2px] -translate-x-1/2 z-0">
+      <div className="absolute left-6 md:left-1/2 top-0 bottom-56 w-[2px] -translate-x-1/2 z-0">
         <motion.div
           style={{ scaleY, transformOrigin: "top center" }}
           className="w-full h-full bg-[#14213D]"
@@ -42,9 +42,9 @@ const Timeline = () => {
         <h1 className="md:text-4xl text-[20px] mb-6">
           It's time we talked to each other <span className="underline cursor-pointer">now</span>.
         </h1>
-        <button className="mt-4 bg-yellow-500 hover:bg-yellow-300 text-[#152e52] px-6 py-3 rounded font-semibold shadow transition border">
-          Book your free initial consultation now
-          <p className="text-xs font-normal">free of charge and by phone – choose an appointment</p>
+        <button className="bg-[#B9F0F9] text-[#152e52] py-2 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300 mt-2">
+          <span className="font-bold">Book your free initial consultation now</span><br />
+          <span className="text-xs">Free of charge and by phone – choose an appointment</span>
         </button>
       </div>
     </div>
@@ -54,9 +54,8 @@ const Timeline = () => {
 const StepCard = ({ step, isLeft }) => {
   return (
     <div
-      className={`relative z-10 flex flex-col-reverse md:flex-row items-center ${
-        isLeft ? "md:flex-row-reverse" : ""
-      } mb-32`}
+      className={`relative z-10 flex flex-col-reverse md:flex-row items-center ${isLeft ? "md:flex-row-reverse" : ""
+        } mb-32`}
     >
       <div className="absolute top-0 left-2 md:left-1/2 transform -translate-x-1/2 z-20">
         <div className="w-10 h-10 rounded-md bg-[#1A3154] text-white flex items-center justify-center font-bold shadow-md [font-family:'Quicksand',sans-serif]">

@@ -5,8 +5,8 @@ import { HiOutlineMenuAlt4 } from "react-icons/hi";
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
   return (
-    <div className='bg-[#152e52] text-white font-bold border-b border-b-white  fixed top-0 left-0 w-full z-1000'>
-      <nav className="max-w-7xl mx-auto bg-[#152e52] text-white px-6 py-4 flex flex-wrap items-center justify-between gap-8">
+    <div className=' text-white font-bold border-b border-b-white  fixed top-0 left-0 w-full z-1000 bg-gradient-to-r from-[#0379C7]/90 to-[#0888E1]/90'>
+      <nav className="max-w-7xl mx-auto  text-white px-6 py-4 flex flex-wrap items-center justify-between gap-8">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
@@ -41,10 +41,11 @@ const Navbar = () => {
 
         {/* CTA Button */}
         <div className="mt-4 md:mt-0 hidden md:flex">
-          <button className="border border-yellow-400 text-yellow-400 px-4 py-2 rounded-md text-sm hover:bg-yellow-400 hover:text-[#152e52] transition">
+          <button className="bg-[#B9F0F9] text-[#152e52] px-4 py-2 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300">
             <span className="font-bold">Free Initial Consultation</span><br />
             <span className="text-xs">Secure your first consultation</span>
           </button>
+
         </div>
       </nav>{navbarOpen && (
         <div className="fixed top-0 left-0 right-0 z-50 bg-[#0d1c36] text-white max-w-screen shadow-lg animate-slide-down">
@@ -57,7 +58,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <img
-                src="https://onecdn.io/media/43ba1108-2927-401a-b5e1-8dd22da972ac/md2x"
+                src="newlogo.jpeg"
                 alt="Dubai Finanz Logo"
                 className="h-10 w-auto"
               />
@@ -88,9 +89,9 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <div>
-              <button className="w-full border border-yellow-400 text-yellow-400 px-4 py-2 rounded-md text-sm hover:bg-yellow-400 hover:text-[#152e52] transition">
-                <span className="font-bold block">Free initial consultation</span>
-                <span className="text-xs block">secure our initial consultation</span>
+              <button className="bg-[#B9F0F9] text-[#152e52] px-4 py-2 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300">
+                <span className="font-bold">Free Initial Consultation</span><br />
+                <span className="text-xs">Secure your first consultation</span>
               </button>
             </div>
           </div>
