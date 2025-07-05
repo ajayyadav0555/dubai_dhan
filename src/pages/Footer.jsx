@@ -71,8 +71,8 @@ const Footer = () => {
                         Book your free initial consultation now<br />
                         <span className="text-xs font-normal [font-family:'Quicksand',sans-serif]">Free of charge and by phone – choose an appointment</span>
                     </button> */}
-                    <button className="bg-[#B9F0F9] text-[#152e52] py-2 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300 mt-2">
-                        <span className="font-bold">Book your free initial consultation now</span><br />
+                    <button className="bg-[#B9F0F9] text-[#152e52] py-2 px-4 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300 mt-8 md:w-[150%] ">
+                        <span className="font-bold text-base">Book your free initial consultation now</span><br />
                         <span className="text-xs">Free of charge and by phone – choose an appointment</span>
                     </button>
                 </div>

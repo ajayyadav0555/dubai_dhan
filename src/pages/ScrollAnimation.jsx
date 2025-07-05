@@ -38,15 +38,16 @@ const Timeline = () => {
       </div>
 
       {/* CTA section */}
-      <div className="mt-20 text-center">
+      <div className="mt-20 text-center md:mx-24">
         <h1 className="md:text-4xl text-[20px] mb-6">
           It's time we talked to each other <span className="underline cursor-pointer">now</span>.
         </h1>
-        <button className="bg-[#B9F0F9] text-[#152e52] py-2 rounded-md text-sm font-semibold shadow-md transition hover:shadow-[0_0_15px_#B9F0F9] hover:scale-105 duration-300 mt-2">
-          <span className="font-bold">Book your free initial consultation now</span><br />
-          <span className="text-xs">Free of charge and by phone – choose an appointment</span>
+        <button className="bg-[#B9F0F9] text-[#152e52] py-3 px-4 rounded-md text-base font-semibold shadow-2xl transition hover:shadow-[0_0_20px_#B9F0F9] hover:scale-105 duration-300 mt-2 md:w-1/2">
+          <span className="block font-bold">Book your free initial consultation now</span>
+          <span className="block md:text-sm text-xs">Free of charge and by phone – choose an appointment</span>
         </button>
       </div>
+
     </div>
   );
 };

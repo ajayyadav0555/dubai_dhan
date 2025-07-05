@@ -4,10 +4,16 @@ import { FaBuilding, FaHandHoldingHeart, FaHome, FaQuoteLeft } from 'react-icons
 
 const FounderSection = () => {
     return (
-        <section className=' bg-cover bg-center bg-no-repeat  border-transparent' id='founder' style={{
-            backgroundImage: "url('https://images.pexels.com/photos/28029006/pexels-photo-28029006.jpeg')",
-            backgroundSize: "100% 100%"
-        }}>
+        <section className='relative overflow-hidden border-transparent' id='founder'>
+            <div
+                className='absolute inset-0 transform scale-x-[-1] bg-cover bg-center bg-no-repeat z-0'
+                style={{
+                    backgroundImage: "url('sk2.jpeg')",
+                    backgroundSize: "100% 100%",
+                }}
+            />
+            <div className='inset-0 absolute  bg-gradient-to-r from-[#0379C7]/90 to-[#6aacf7]/90 opacity-80' style={{
+            }}/>
             <div className='max-w-7xl mx-auto  border border-transparent'>
                 <div className=' my-20'>
                     <div className=' w-full md:max-w-1/2 text-white bg-[#191918] opacity-80 px-4 pt-5 pb-10 rounded'>
@@ -47,9 +53,9 @@ const FounderSection = () => {
                                 Talk to me - before you buy in Dubai.</p>
                         </div>
                         <div className='md:text-lg'>
-                            <button className="mt-8 w-full bg-yellow-500 hover:bg-yellow-300 text-[#152e52] px-6 py-3 rounded font-semibold shadow transition border">
+                            <button className="mt-8 w-full bg-[#B9F0F9] text-[#152e52] py-3 px-4 rounded-md text-base md:text-xl font-semibold shadow-2xl transition hover:shadow-[0_0_20px_#B9F0F9] hover:scale-105 duration-300  border">
                                 Book your free initial consultation now
-                                <p className="text-xs font-normal">free of charge and by phone – choose an appointment</p>
+                                <p className="text-xs md:text-sm font-normal">free of charge and by phone – choose an appointment</p>
 
                             </button>
                         </div>

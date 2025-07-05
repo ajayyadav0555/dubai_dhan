@@ -2,7 +2,7 @@ import React from 'react'
 
 const NotFault = () => {
   return (
-    <section className="relative text-white pt-6 pb-2 px-6 bg-gradient-to-r from-[#0379C7]/90 to-[#6aacf7]/90"
+    <section className="relative text-white pt-6 pb-8 px-6 bg-gradient-to-r from-[#0379C7]/90 to-[#6aacf7]/90 "
     // <section className="relative text-white py-16 px-6 bg-gradient-to-r from-[#030B20] to-[#041330]"
     //  bg-cover bg-center bg-no-repeat
     // style={{
@@ -28,12 +28,13 @@ const NotFault = () => {
             If you are looking for a solution, a partner who represents only your interests and supports you in buying the right property in Dubai, then you have come to the right place!
           </p>
 
-          <button className="mt-8 bg-transparent border border-white text-white px-6 py-3 rounded-md font-semibold shadow-md transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_12px_#ffffff]">
+          <button className="mt-8 bg-transparent border border-white text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] shadow-[0_0_20px_rgba(255,255,255,0.6)]">
             Book your free initial consultation now
             <p className="text-xs font-normal mt-1">
               free of charge and by phone – choose an appointment
             </p>
           </button>
+
         </div>
         <div className=' bg-cover bg-center bg-no-repeat max-sm:absolute' style={{
           backgroundImage: "url('man3.png')",
