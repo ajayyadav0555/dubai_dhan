@@ -97,7 +97,7 @@ const AccordionItem = ({ icon, label, description, isOpen, onToggle }) => {
         onClick={onToggle}
         className="w-full flex items-center justify-between text-left"
       >
-        <span className="flex items-center gap-3 text-normal font-bold text-[#152e52] [font-family:'Quicksand',sans-serif]">
+        <span className="flex items-center gap-3 text-normal font-bold text-[#152e52] [font-family:'Quicksand',sans-serif] min-w-[28px] min-h-[28px]">
           {icon}
           <span>{label}</span>
         </span>
@@ -147,7 +147,7 @@ const Comparison = () => {
                 key={index}
                 label={item.label}
                 description={item.description}
-                icon={<FaTimesCircle className="text-red-600 w-7 h-7" />}
+                icon={<FaTimesCircle className="text-red-600 w-7 h-7 shrink-0" />}
                   isOpen={openIndex === `without-${index}`}
                 onToggle={() => handleToggle(`without-${index}`)}
               />
@@ -164,7 +164,7 @@ const Comparison = () => {
                 key={index}
                 label={item.label}
                 description={item.description}
-                icon={<FaCheckCircle className="text-green-600 w-7 h-7" />}
+                icon={<FaCheckCircle className="text-green-600 w-7 h-7 shrink-0" />}
                  isOpen={openIndex === `with-${index}`}
                 onToggle={() => handleToggle(`with-${index}`)}
               />
