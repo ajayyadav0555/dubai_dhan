@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
           {/* Left Content */}
           <div>
-            <p className="text-[#004e7c] font-semibold text-sm uppercase tracking-wide">
+            <p className="text-white font-semibold text-sm uppercase tracking-wide">
               Invest successfully in Dubai with equity starting from 100,000 EUR
             </p>
             <h1 className="text-2xl md:text-3xl max-w-[500px] mt-6 mb-6 font-bold font-serif text-white">
@@ -38,12 +38,13 @@ const HeroSection = () => {
               ))}
             </ul>
 
-            <button className="max-sm:w-full mt-8 bg-transparent border border-white text-white px-6 py-3 max-sm:text-[14px] rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_12px_#ffffff] shadow-2xl">
-              Book your free initial consultation now
-              <p className="text-xs font-normal mt-1 max-sm:text-[10px]">
-                free of charge and by phone – choose an appointment
-              </p>
-            </button>
+           <button className="max-sm:text-sm mt-8 bg-transparent border border-white text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] shadow-[0_0_20px_rgba(255,255,255,0.6)]">
+            Book your free initial consultation now
+            <p className="text-xs font-normal mt-1">
+              free of charge and by phone – choose an appointment
+            </p>
+          </button>
+
 
           </div>
 

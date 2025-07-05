@@ -28,7 +28,7 @@ const NotFault = () => {
             If you are looking for a solution, a partner who represents only your interests and supports you in buying the right property in Dubai, then you have come to the right place!
           </p>
 
-          <button className="mt-8 bg-transparent border border-white text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] shadow-[0_0_20px_rgba(255,255,255,0.6)]">
+          <button className="max-sm:text-sm mt-8 bg-transparent border border-white text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_20px_rgba(255,255,255,0.8)] shadow-[0_0_20px_rgba(255,255,255,0.6)]">
             Book your free initial consultation now
             <p className="text-xs font-normal mt-1">
               free of charge and by phone – choose an appointment
