@@ -59,7 +59,8 @@ import FeatureSection from './pages/Fearures.jsx'
 
 const App = () => {
   return (
-    <div className=''><Navbar />
+    <div className=''>
+      <Navbar />
       <HeroSection />
       <Expertice />
       <NotFault />

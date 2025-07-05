@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 const HeroSection = () => {
   return (
     <section
-      className="bg-center bg-cover w-full pt-3"
+      className="bg-center bg-cover w-full"
       style={{
         backgroundImage:
           "url('https://thumbs.dreamstime.com/b/photo-manipulation-dubai-skyline-dubai-skyline-sunset-skyscrapers-reflecting-water-343729522.jpg')",
@@ -38,9 +38,9 @@ const HeroSection = () => {
               ))}
             </ul>
 
-            <button className="mt-8 bg-transparent border border-white text-white px-6 py-3 rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_12px_#ffffff] shadow-2xl">
+            <button className="max-sm:w-full mt-8 bg-transparent border border-white text-white px-6 py-3 max-sm:text-[14px] rounded-md font-semibold transition-all duration-300 hover:bg-white hover:text-[#0e1a2e] hover:shadow-[0_0_12px_#ffffff] shadow-2xl">
               Book your free initial consultation now
-              <p className="text-xs font-normal mt-1">
+              <p className="text-xs font-normal mt-1 max-sm:text-[10px]">
                 free of charge and by phone – choose an appointment
               </p>
             </button>
